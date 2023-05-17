@@ -1,302 +1,115 @@
-accents = """агронОмія
-алфАвІт
-Аркушик
-асиметрІя
-багаторазОвий
-безпринцИпний
-бЕшкет
-блАговіст
-близькИй
-болотИстий
-борОдавка
-босОніж
-боЯзнь
-бурштинОвий
-бюлетЕнь
-вАги (у множині)
-вантажІвка
-веснЯнИй
-вИгода (користь)
-вигОда (зручність)
-видАння
-визвОльний
-вимОга
-вИпадок
-вирАзний
-вИсіти
-вИтрата
-вишИваний
-відвезтИ
-відвестИ
-вІдгомін
-віднестИ
-вІдомість (список)
-відОмість (повідомлення, дані, популярність)
-вІрші
-віршовИй
-вітчИм
-гальмО
-гАльма
-глядАч
-горошИна
-граблІ
-гуртОжиток
-данИна
-дАно
-децимЕтр
-дЕщиця
-де-Юре
-джерелО
-дИвлячись
-дичАвіти
-діалОг
-добовИй
-добУток
-довезтИ
-довестИ
-довІдник
-дОгмат
-донестИ
-дОнька
-дочкА
-дрОва
-експЕрт
-єретИк
-жалюзІ
-завдАння
-завезтИ
-завестИ
-зАвжди
-завчасУ
-зАгадка
-заіржАвілий
-заіржАвіти
-закінчИти
-зАкладка (у книзі)
-зАкрутка
-залишИти
-замІжня
-занестИ
-зАпонка
-заробІток
-зАставка
-зАстібка
-застОпорити
-звИсока
-здАлека
-зібрАння
-зобразИти
-зОзла
-зрАння
-зрУчний
-зубОжіння
-індУстрія
-кАмбала
-каталОг
-квартАл
-кИшка
-кіломЕтр
-кінчИти
-кОлесо
-кОлія
-кОпчений (дієприкметник)
-копчЕний (прикметник)
-корИсний
-кОсий
-котрИй
-крицЕвий
-крОїти
-кропивА
-кулінАрія
-кУрятина
-лАте
-листопАд
-літОпис
-лЮстро
-мАбУть
-магістЕрський
-мАркетинг
-мерЕжа
-металУргія
-мілімЕтр
-навчАння
-нанестИ
-напІй
-нАскрізний
-нАчинка
-ненАвидіти
-ненАвисний
-ненАвисть
-нестИ
-нІздря
-новИй
-обіцЯнка
-обрАння
-обрУч (іменник)
-одинАдцять
-одноразОвий
-ознАка
-Олень
-оптОвий
-осетЕр
-отАман
-Оцет
-павИч
-партЕр
-пЕкарський
-перевезтИ
-перевестИ
-перЕкис
-перелЯк
-перенестИ
-перЕпад
-перЕпис
-піалА
-пІдданий (дієприкметник)
-піддАний (іменник, істота)
-пІдлітковий
-пізнАння
-пітнИй
-піцЕрія
-пОдруга
-пОзначка
-пОмилка
-помІщик
-помОвчати
-понЯття
-порядкОвий
-посерЕдині
-привезтИ
-привестИ
-прИморозок
-принестИ
-прИчіп
-прОділ
-промІжок
-псевдонІм
-рАзом
-рЕмінь (пояс)
-рЕшето
-рИнковий
-рівнИна
-роздрібнИй
-рОзпірка
-рукОпис
-руслО
-сантимЕтр
-свЕрдло
-серЕдина
-сЕча
-симетрІя
-сільськогосподАрський
-сімдесЯт
-слИна
-соломИнка
-стАтуя
-стовідсОтковий
-стрибАти
-текстовИй
-течіЯ
-тИгровий
-тисОвий
-тім’янИй
-травестІя
-тризУб
-тУлуб
-украЇнський
-уподОбання
-урочИстий
-усерЕдині
-фартУх
-фаховИй
-фенОмен
-фОльга
-фОрзац
-хАос (у міфології: стихія)
-хаОс (безлад)
-цАрина
-цемЕнт
-цЕнтнер
-ціннИк
-чарівнИй
-черговИй
-читАння
-чорнОзем
-чорнОслив
-чотирнАдцять
-шляхопровІд
-шовкОвий
-шофЕр
-щЕлепа
-щИпці
-щодобовИй"""
+accents = """\nагронОмія\nалфАвІт\nАркушик\nасиметрІя\nбагаторазОвий\nбезпринцИпний\nбЕшкет\nблАговіст\nблизькИй\nболотИстий\nборОдавка\nбосОніж\nбоЯзнь\nбурштинОвий\nбюлетЕнь\nвАги (у множині)\nвантажІвка\nвеснЯнИй\nвИгода (користь)\nвигОда (зручність)\nвидАння\nвизвОльний\nвимОга\nвИпадок\nвирАзний\nвИсіти\nвИтрата\nвишИваний\nвідвезтИ\nвідвестИ\nвІдгомін\nвіднестИ\nвІдомість (список)\nвідОмість (повідомлення, дані, популярність)\nвІрші\nвіршовИй\nвітчИм\nгальмО\nгАльма\nглядАч\nгорошИна\nграблІ\nгуртОжиток\nданИна\nдАно\nдецимЕтр\nдЕщиця\nде-Юре\nджерелО\nдИвлячись\nдичАвіти\nдіалОг\nдобовИй\nдобУток\nдовезтИ\nдовестИ\nдовІдник\nдОгмат\nдонестИ\nдОнька\nдочкА\nдрОва\nекспЕрт\nєретИк\nжалюзІ\nзавдАння\nзавезтИ\nзавестИ\nзАвжди\nзавчасУ\nзАгадка\nзаіржАвілий\nзаіржАвіти\nзакінчИти\nзАкладка (у книзі)\nзАкрутка\nзалишИти\nзамІжня\nзанестИ\nзАпонка\nзаробІток\nзАставка\nзАстібка\nзастОпорити\nзвИсока\nздАлека\nзібрАння\nзобразИти\nзОзла\nзрАння\nзрУчний\nзубОжіння\nіндУстрія\nкАмбала\nкаталОг\nквартАл\nкИшка\nкіломЕтр\nкінчИти\nкОлесо\nкОлія\nкОпчений (дієприкметник)\nкопчЕний (прикметник)\nкорИсний\nкОсий\nкотрИй\nкрицЕвий\nкрОїти\nкропивА\nкулінАрія\nкУрятина\nлАте\nлистопАд\nлітОпис\nлЮстро\nмАбУть\nмагістЕрський\nмАркетинг\nмерЕжа\nметалУргія\nмілімЕтр\nнавчАння\nнанестИ\nнапІй\nнАскрізний\nнАчинка\nненАвидіти\nненАвисний\nненАвисть\nнестИ\nнІздря\nновИй\nобіцЯнка\nобрАння\nобрУч (іменник)\nодинАдцять\nодноразОвий\nознАка\nОлень\nоптОвий\nосетЕр\nотАман\nОцет\nпавИч\nпартЕр\nпЕкарський\nперевезтИ\nперевестИ\nперЕкис\nперелЯк\nперенестИ\nперЕпад\nперЕпис\nпіалА\nпІдданий (дієприкметник)\nпіддАний (іменник, істота)\nпІдлітковий\nпізнАння\nпітнИй\nпіцЕрія\nпОдруга\nпОзначка\nпОмилка\nпомІщик\nпомОвчати\nпонЯття\nпорядкОвий\nпосерЕдині\nпривезтИ\nпривестИ\nпрИморозок\nпринестИ\nпрИчіп\nпрОділ\nпромІжок\nпсевдонІм\nрАзом\nрЕмінь (пояс)\nрЕшето\nрИнковий\nрівнИна\nроздрібнИй\nрОзпірка\nрукОпис\nруслО\nсантимЕтр\nсвЕрдло\nсерЕдина\nсЕча\nсиметрІя\nсільськогосподАрський\nсімдесЯт\nслИна\nсоломИнка\nстАтуя\nстовідсОтковий\nстрибАти\nтекстовИй\nтечіЯ\nтИгровий\nтисОвий\nтім’янИй\nтравестІя\nтризУб\nтУлуб\nукраЇнський\nуподОбання\nурочИстий\nусерЕдині\nфартУх\nфаховИй\nфенОмен\nфОльга\nфОрзац\nхАос (у міфології: стихія)\nхаОс (безлад)\nцАрина\nцемЕнт\nцЕнтнер\nціннИк\nчарівнИй\nчерговИй\nчитАння\nчорнОзем\nчорнОслив\nчотирнАдцять\nшляхопровІд\nшовкОвий\nшофЕр\nщЕлепа\nщИпці\nщодобовИй"""
 
-
-""" 
-    HEADER = '\033[95m'
-    OKBLUE = '\033[94m'
-    OKCYAN = '\033[96m'
-    OKGREEN = '\033[92m'
-    WARNING = '\033[93m'
-    FAIL = '\033[91m'
-    ENDC = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-"""
-
-def findDifference(str1, str2):
+PURPLE =   '\033[95m'
+BLUE =     '\033[94m'
+CYAN =     '\033[96m'
+GREEN =    '\033[92m'
+YELLOW =   '\033[93m'
+RED =      '\033[91m'
+NORMAL =   '\033[0m'
+BOLD =     '\033[1m'
+UNDERLINE ='\033[4m'
+    
+def findDifference(str1, str2):    
     """str1 - correct, str2 - incorrect """
-    output = '\033[1m'
+    
+    output = ""
     for i in range(max(len(str1), len(str2))):
         try: str1[i]
         except: continue
         try: str2[i]
         except: 
-            output += '\033[93m' + str1[i]
+            output += YELLOW + BOLD + str1[i]
             continue
-        if str1[i] == str2[i]: output += '\033[92m' + str1[i];
-        else: output += '\033[91m'+  str1[i]
+        if str1[i] == str2[i]: output += GREEN + BOLD + str1[i];
+        else: output += RED + BOLD + str1[i]
     return output    
     
     
-print('\033[1m' + '\033[94m' + '~ ~ Невеличкий скрипт для перевірки наголосів для НМТ :). \n > мій гітхаб: https://github.com/Ak1yamaKiyoshi')
-print('\033[1m' + '\033[91m' + " > введіть 'ЗУПИНИТИСЬ' щоб зупинитись і побачити результати " + '\033[0m')
-print('\033[1m' + '\033[4m' + '\033[95m' " > Вам потрібно вводити слова позначаючи наголос великою літерою: алфАвІт")
-print('\033[0m' + '\033[93m' + '\033[1m' + ' > Поточне слово -> слово без позначеного наголосу \n      [000/231]  ->  алфавіт ')
-print('\033[0m' + '\033[1m' + '\033[4m' + ' > Успіхів! '+ '\033[0m')
+def quiz(accents):
+    """ start quiz """
+    
+    # Greeting message with instructions 
+    print(NORMAL + BOLD + '\n' + '~ ~ Невеличкий скрипт для перевірки наголосів для НМТ :). \n > мій гітхаб: https://github.com/Ak1yamaKiyoshi'
+        + RED    + '\n' + " > введіть 'ЗУПИНИТИСЬ' щоб зупинитись і побачити результати "
+        + YELLOW + '\n' + " > Вам потрібно вводити слова позначаючи наголос великою літерою: алфАвІт"
+        + GREEN  + '\n' + ' > Поточне слово -> слово без позначеного наголосу \n      [000/231]  ->  алфавіт '
+        + NORMAL + UNDERLINE + BOLD + '\n > Успіхів! ' + NORMAL)
 
-answers = {"correct":0,"incorrect":0,"skipped":0, "saved_incorrect":[]}
-for index, i in enumerate(set(accents.split("\n"))):
-    current_correct_accent = i[:i.find("(")].strip() if "(" in i else i.strip()
+    state = {
+        "correct":0,             # correct user answers 
+        "incorrect":0,           # incorrect user answers 
+        "skipped":0,             # skiped by user answers 
+        "errors_highlighted":[], # array of incorrect answers with error highlighting 
+        "errors":[],             # array of incorrect answers without error highlighting
+        "stop_word":"ЗУПИНИТИСЬ" # word to skip all following tests, and end the test
+    }
     
-    print(""
-        + '\033[94m' + f"[{index+1:03d}/231]"
-        + '\033[0m' + " -> "
-        + '\033[1m' + '\033[93m' + '\033[4m' + f"{i.lower()}"
-        )
-    
-    current_user_accent = input('\033[0m' + f"Позначте наголос: " + '\033[1m').strip();
-    if current_user_accent == current_correct_accent: answers["correct"] += 1
-    elif current_user_accent == "": answers["skipped"] += 1
-    elif current_user_accent == "ЗУПИНИТИСЬ": answers['skipped'] += (231 - index); break
-    else: 
-        answers['incorrect'] += 1
-        error = findDifference( current_correct_accent, current_user_accent)
-        print('\033[0m' + f" > {error}")
-        answers['saved_incorrect'].append(error)
+    # calculate quiz length 
+    quiz_length = len(set(accents.split("\n")))
+    for index, string in enumerate(set(accents.split("\n"))):
+        # if there is string with description 
+        # cut all, that not belong to the accent 
+        # example: "вИгода (користь)"" -> "вИгода"
+        correct_answer = string[:string.find("(")].strip() if "(" in string else string.strip()
         
+        # avoid empty quizez
+        if len(string.strip()) == 0: continue
 
-print(""
-      +        '\033[1m' +'\033[95m' + "__________________"
-      + '\n' + '\033[1m' + '\033[92m' + "Правильно   ->  " + f"{answers['correct']}"
-      + '\n' + '\033[1m' + '\033[91m' + "Неправильно ->  " + f"{answers['incorrect']}"
-      + '\n' + '\033[1m' + '\033[93m' + "Разом       ->  " + f"{answers['correct'] + answers['incorrect']}"
-      + '\n' + '\033[1m' + '\033[94m' + "Пропущено   ->  " + f"{answers['skipped']}"
-      + '\033[0m'
-      )
+        # Message with test counter and question 
+        print("" + NORMAL 
+            + BLUE + f"[{index+1}/{quiz_length}]" # counter [current/total]
+            + NORMAL + " -> "
+            + YELLOW + BOLD + UNDERLINE + f"{string.lower()}" # question; word
+        )
+        
+        # Ask user to input answer
+        user_answer = input(NORMAL + f"Позначте наголос: " + BOLD + CYAN).strip();
+        # check, if answer is correct; if so, update state
+        if user_answer == correct_answer: state["correct"] += 1
+        # check, if answer is skipped; if so, update the state 
+        elif user_answer == "": state["skipped"] += 1
+        # check, if user entered stop word; if so, update skipped counter and break cycle
+        elif user_answer == state['stop_word']: state['skipped'] += (quiz_length - index); break
+        # if answer is incorrect
+        else: 
+            # append error ( to use as questions in next quiz, based on errors in current )
+            state['errors'].append(string)
+            # update state incorrect counter
+            state['incorrect'] += 1 
+            # find errors in user answers
+            error = findDifference( correct_answer, user_answer ) 
+            # ouput user error
+            print('\033[0m' + f" > {error}") 
+            # append highlighted errors ( to display after results )
+            state["errors_highlighted"].append(error) 
+        
+    # Results message
+    print(""    + BOLD
+        +         PURPLE + "__________________"
+        + '\n'  + GREEN  + "Правильно   ->  " + f"{state['correct']}"
+        + '\n'  + RED    + "Неправильно ->  " + f"{state['incorrect']}"
+        + '\n'  + YELLOW + "Разом       ->  " + f"{state['correct'] + state['incorrect']}"
+        + '\n'  + BLUE   + "Пропущено   ->  " + f"{state['skipped']}"
+        )
 
-if input("Вивести помилки? так/ні: ") == "так":
-    for index, i in enumerate(sorted(answers['saved_incorrect'])):
-        print('\033[0m' + '\033[1m'  + '\033[96m'+ f"[{index+1:03d}/{answers['incorrect']:03d}]: {i}")
+    # Print Errors Message
+    if input( NORMAL + BOLD + "Вивести помилки? так/ні: " + CYAN) == "так":
+        # sort errors 
+        state['errors_highlighted'] = sorted(state['errors_highlighted'])
+        # Empty accents to write new questions to it  
+        accents = "" 
+        for i in range(len(state['errors_highlighted'])):
+            # print error with number
+            print(NORMAL + BOLD + BLUE + f"[{i+1}/{state['incorrect']}]: {state['errors_highlighted'][i]}")
+            # append errors (not highlighted) to accent 
+            accents += state['errors'][i] + "\n" 
+        # delete first "\n"
+    
+    # if restart, recursive call using new errors
+    if input( NORMAL + BOLD + "Перепройти з виправленням помилок? так/ні " + CYAN) == "так":    
+        quiz(accents) 
+    else:
+        input(YELLOW + "Натисніть Enter щоб закрити консоль " + NORMAL)
 
-input('\033[93m' + " Натисніть Enter щоб закрити консоль ")
+quiz(accents)
